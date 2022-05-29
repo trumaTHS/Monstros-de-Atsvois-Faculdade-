@@ -1,0 +1,2 @@
+# Monstros de Atsvois (Faculdade)
+Jogo em estilo RPG de Perguntas e Respostas para a matéria Algoritmos e Lógica de Programação na Linguagem C com data de apresentação final na data 08/06/2022. Tendo como foco de narrativa seu Personagem, o Jogador explora num Plano de Ventos Selvagens que é, supostamente, controlado pela Voz Desconhecida. Simples e com uma história progressiva, o jogo tem começo meio e fim, tendo quatro finais possíveis.
