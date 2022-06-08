@@ -73,7 +73,7 @@ main()
     printf("|      ##:::: ##: ######:::                                                                    |\n");
     printf("|      ##:::: ##: ##...::::                                                                    |\n");
     printf("|      ##:::: ##: ##:::::::                                                                    |\n");
-    printf("|      ########:: ########:           Versão : 1.9 - Thiago Souza                              |\n");
+    printf("|      ########:: ########:           Versão : 1.10 (Versão Final)                             |\n");
     printf("|      ........:::........:           - .-. ..- -- .. -. .. --.- ..- .. --                     |\n");
     printf("|                                                                                              |\n");
     printf("|      :::'###::::'########::'######::'##::::'##::'#######::'####::'######::                   |\n");
@@ -244,8 +244,8 @@ main()
     printf("|                                                                                              |\n");
     printf("|                        Sua mochila contém:                                                   |\n");
     printf("|                                                                                              |\n");
-    printf("|                        1x Espada Longa                                                       |\n");
     printf("|                        1x Espada Curta                                                       |\n");
+    printf("|                        1x Espada Longa                                                       |\n");
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");
     Beep(220,800);
@@ -416,7 +416,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");
     printf("|                                                                                              |\n");
-    printf("|                            - Segures tua Espada Longa e Curta,                               |\n");
+    printf("|                            - Segures tua Espada Curta e Longa,                               |\n");
     printf("|                            e tenhas uma boa sorte no término da tua viagem!                  |\n");
     Beep(880,1400); Sleep(200); Beep(790,1000); Sleep(200);
     printf("|                                                                                              |\n");
@@ -762,7 +762,7 @@ main()
     printf("|                            mas tu vens provando teu valor!                                   |\n");
     Beep(880,1400); Sleep(200); Beep(790,1000); Sleep(200);
     printf("|                                                                                              |\n");
-    printf("|                            - Teu nome mancha amargamento minha boca,                         |\n");
+    printf("|                            - Teu nome mancha amargamente minha boca,                         |\n");
     printf("|                            %s, o(a) péssimo(a) %s!                                            \n", nome, classe);
     printf("|                            Tua terra, ainda, não és digna de minha saliva!                   |\n");
     Beep(880,1400); Sleep(200); Beep(790,1000); Sleep(200);
@@ -900,7 +900,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Kozoha,                           |\n"); per++; erro++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vida);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vida);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     system("color 0f");
@@ -939,7 +939,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Kozoha,                           |\n"); per++; erro++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vida);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vida);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     system("color 0f");
@@ -978,7 +978,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Kozoha,                           |\n"); per++; erro++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vida);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vida);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erro==3){
@@ -1035,7 +1035,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Kozoha,                           |\n"); per++; erro++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vida);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vida);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erro==3){
@@ -1092,7 +1092,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Kozoha,                           |\n"); per++; erro++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vida);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vida);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erro==3){
@@ -1149,7 +1149,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Kozoha,                           |\n"); per++; erro++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vida);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vida);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erro==3){
@@ -1206,7 +1206,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Kozoha,                           |\n"); per++; erro++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vida);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vida);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erro==3){
@@ -1263,7 +1263,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Kozoha,                           |\n"); per++; erro++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vida);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vida);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erro==3){
@@ -1320,7 +1320,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Kozoha,                           |\n"); per++; erro++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vida);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vida);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
 
@@ -1378,7 +1378,7 @@ main()
     printf("·==============================================================================================·\n");
     printf("|                                                                                              |\n");
     printf("|                            - VIVO, AINDA!? QUEM ÉS VERDADEIRAMENTE TU!?                      |\n");
-    printf("|                            TU REALMENTE NÃO ESCAPARÁS DESSA VEZ!                             |\n");
+    printf("|                            TU REALMENTE NÃO ESCAPARÁS DESTA VEZ!                             |\n");
     Beep(880,1400); Sleep(200); Beep(790,1000); Sleep(1000);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");
@@ -1402,7 +1402,7 @@ main()
     printf("|==============================================================================================|\n");
     printf("|                                                                                              |\n");
     printf("|                            Pressione \"Enter\" para continuar...                               |\n");
-    printf("|                            Lembre-se, você terá apenas 2 vidas.                              |\n");
+    printf("|                            Lembre-se, você terá apenas 2 vida.                              |\n");
     Beep(61,1400); Sleep(200);
     printf("|                                                                                              |\n");
     printf("·==============================================================================================·\n");
@@ -1471,7 +1471,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Atmru-Exato,                      |\n"); perg++; erros++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vidas);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vidas);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     system("color 0f");
@@ -1521,7 +1521,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Atmru-Exato,                      |\n"); perg++; erros++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vidas);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vidas);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erros==2){
@@ -1589,7 +1589,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Atmru-Exato,                      |\n"); perg++; erros++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vidas);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vidas);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erros==2){
@@ -1657,7 +1657,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Atmru-Exato,                      |\n"); perg++; erros++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vidas);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vidas);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erros==2){
@@ -1725,7 +1725,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Atmru-Exato,                      |\n"); perg++; erros++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vidas);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vidas);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erros==2){
@@ -1792,7 +1792,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Atmru-Exato,                      |\n"); perg++; erros++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vidas);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vidas);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erros==2){
@@ -1883,7 +1883,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Atmru-Humano,                     |\n"); perg++; erros++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vidas);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vidas);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     system("color 0f");
@@ -1934,7 +1934,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Atmru-Humano,                     |\n"); perg++; erros++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vidas);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vidas);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erros==2){
@@ -2001,7 +2001,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Atmru-Humano,                     |\n"); perg++; erros++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vidas);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vidas);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erros==2){
@@ -2070,7 +2070,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Atmru-Humano,                     |\n"); perg++; erros++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vidas);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vidas);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erros==2){
@@ -2137,7 +2137,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Atmru-Humano,                     |\n"); perg++; erros++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vidas);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vidas);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erros==2){
@@ -2204,7 +2204,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                     Você recebeu um ataque considerável de Atmru-Humano,                     |\n"); perg++; erros++;
     printf("|                     tenha cuidado com o resto do confronto,                                  |\n");
-    printf("|                     porque lhe faltam %d vidas!                                               \n", vidas);
+    printf("|                     porque lhe faltam %d vida(s)!                                             \n", vidas);
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");}
     if(erros==2){
@@ -2296,6 +2296,7 @@ main()
     printf("|                            - Teu caminho acaba aqui, tudo que construíste encerrarás,        |\n");
     printf("|                            eu sou A Voz Desconhecida, e é um prazer em te matar!             |\n");
     Beep(880,1400); Sleep(200); Beep(790,1000); Sleep(200);
+    printf("|                                                                                              |\n");
     printf("|                            E você é tomado por um sorriso assustador de ponta-a-ponta,       |\n");
     printf("|                            seus lábios são desregulados e monstruosos.                       |\n");
     printf("|                                                                                              |\n");
@@ -2370,7 +2371,7 @@ main()
     printf("|                     Agora, seu corpo é lentamente drenado, fortalecendo-o ainda mais.        |\n");
     Sleep(1400);
     printf("|                                                                                              |\n");
-    printf("|                     Acredito que seja muito  triste, ter lutado para morrer aqui,            |\n");
+    printf("|                     Acredito que seja muito triste, ter lutado para morrer aqui,             |\n");
     printf("|                     mas como Ele disse: você não tinha quaisquer chances.                    |\n");
     Sleep(1400);
     printf("|                                                                                              |\n");
@@ -2437,7 +2438,7 @@ main()
     printf("|                     W. Das chamas.                                                           |\n");
     printf("|                     X. Dos mortos.                                                           |\n");
     printf("|                     Y. Das sepulturas.                                                       |\n");
-    printf("|                     Z. Das vidas.                                                            |\n");
+    printf("|                     Z. Das vida(s).                                                          |\n");
     printf("|                                                                                              |\n");
     printf("|                     - "); scanf("%s", &resp);
     Beep(392,1000); Sleep(600);
@@ -2467,7 +2468,7 @@ main()
     printf("|                     Agora, seu corpo é lentamente drenado, fortalecendo-o ainda mais.        |\n");
     Sleep(1400);
     printf("|                                                                                              |\n");
-    printf("|                     Acredito que seja muito  triste, ter lutado para morrer aqui,            |\n");
+    printf("|                     Acredito que seja muito triste, ter lutado para morrer aqui,             |\n");
     printf("|                     mas como Ele disse: você não tinha quaisquer chances.                    |\n");
     Sleep(1400);
     printf("|                                                                                              |\n");
@@ -2565,7 +2566,7 @@ main()
     printf("|                     Agora, seu corpo é lentamente drenado, fortalecendo-o ainda mais.        |\n");
     Sleep(1400);
     printf("|                                                                                              |\n");
-    printf("|                     Acredito que seja muito  triste, ter lutado para morrer aqui,            |\n");
+    printf("|                     Acredito que seja muito triste, ter lutado para morrer aqui,             |\n");
     printf("|                     mas como Ele disse: você não tinha quaisquer chances.                    |\n");
     Sleep(1400);
     printf("|                                                                                              |\n");
@@ -2618,7 +2619,7 @@ main()
     printf("|                     seu corpo voa, sumindo lentamente, como se fosse cinzas de fogo.         |\n");
     Sleep(1400);
     printf("|                                                                                              |\n");
-    printf("|                     - Eu ainda não direi teu nome... realmente não farei isso até partir...  |\n");
+    printf("|                     - Eu ainda não direi teu lar... realmente não farei isso até partir...   |\n");
     printf("|                     mas, por favor, quando der, cuide de meus filhos... eles não tem mãe...  |\n");
     Sleep(1400);
     printf("|                                                                                              |\n");
@@ -2656,7 +2657,7 @@ main()
     printf("|      ##.... ##: ##.....::                                                                    |\n");
     printf("|      ##:::: ##: ##:::::::                                                                    |\n");
     printf("|      ##:::: ##: ######:::                                                                    |\n");
-    printf("|      ##:::: ##: ##...::::           Espero que tenha te entredido,                           |\n");
+    printf("|      ##:::: ##: ##...::::           Espero que tenha te entretido,                           |\n");
     printf("|      ##:::: ##: ##:::::::           lhe agradeço por ter jogado e ter chegado até aqui!      |\n");
     printf("|      ########:: ########:           Thiago Souza - 29/05/2022                                |\n");
     printf("|      ........:::........:           - .-. ..- -- .. -. .. --.- ..- .. --                     |\n");
@@ -2701,7 +2702,7 @@ main()
     printf("|                                                                                              |\n");
     printf("|                                     Notas de Atualização                                     |\n");
     printf("|                                     Monstros de Atsvois                                      |\n");
-    printf("|                                     Término : 29/05/2022                                      |\n");
+    printf("|                                     Término : 29/05/2022                                     |\n");
     printf("|                                                                                              |\n");
     printf("|==============================================================================================|\n");
     printf("|                                                                                              |\n");
@@ -2773,6 +2774,12 @@ main()
     printf("|   1.9.3. Mudança do nome dos segundos bosses, para melhor compreensão:                       |\n");
     printf("|   Truma-Exato e Truma-Humano > Atmru-Exato e Atmru-Humano.                                   |\n");
     printf("|                                                                                              |\n");
+    printf("|==============================================================================================|\n");
+    printf("|                                                                                              |\n");
+    printf("|   Versão : 1.10 (Versão Final)                                                               |\n");
+    printf("|   1.10.1. Correção de elementos diversos para um melhor funcionamento.                       |\n");
+    printf("|   1.10.2. Correção de diversas questões sobre ortografia para melhor entendimento.           |\n");
+    printf("|                                                                                              |\n");
     printf("·==============================================================================================·\n");
     break;}
     case 2:
@@ -2781,6 +2788,5 @@ main()
     system("pause");
 
 }
-
 
 
